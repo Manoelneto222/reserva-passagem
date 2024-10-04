@@ -26,6 +26,10 @@ int main(int argc, char** argv) {
 	
 	int fileira = -1, acento = -1;
 	char poltrona = ' ';
+
+	printf("você quer fazer uma reserva?");
+		char resposta;
+	scanf("%c", &resposta);
 	
 	while (true){	
 		printf("\nDigite a fileira (1-10): ");
