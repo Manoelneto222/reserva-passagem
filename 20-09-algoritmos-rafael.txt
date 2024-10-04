@@ -1,0 +1,108 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 20/09/2024
+Var
+nome: caractere
+saudacao: inteiro
+
+Inicio
+escreval("Informe seu nome")
+leia(nome)
+
+escreval("--------------------SAUDAÇÕES---------------------")
+escreval("-------- Código -------- Saudação ------------")
+escreval("-------- 00001  -------- Bom dia! ------------")
+escreval("-------- 00002  -------- Bom tarde! ------------")
+escreval("-------- 00003  -------- Bom noite! ------------")
+escreval("------------------------------------------------")
+escreval("Digite o código para sua saudação")
+leia(saudacao)
+
+escolha saudacao :
+caso 1
+escreval("Sr(a) ",nome, " Bom dia!")
+caso 2
+escreval("Sr(a) ",nome, " Boa tarde!")
+caso 3
+escreval("Sr(a) ",nome, " Boa noite!")
+outrocaso
+escreval("Códio Inválido")
+fimescolha
+
+
+Fimalgoritmo
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 20/09/2024
+Var
+cliente, dados: caractere
+codigo : inteiro
+dinheiro, calculo: real
+emprestimo, saldo, extrato : real
+Inicio
+escreval("Nome do cliente:")
+leia(cliente)
+escreval("-------------- CAIXA ELETRÔNICO --------------")
+escreval("-------------- ",cliente," --------------")
+escreval("------ Código ----- Função ------------")
+escreval("------ 012    --    Depósito ------------")
+escreval("------ 045    --    Extrato ------------")
+escreval("------ 046    --    Saldo ------------")
+escreval("------ 037    --    Saque ------------")
+escreval("------ 025    --    Empréstimo ------------")
+escreval("------ 052    --    Validar seus dados ------------")
+escreval("------------------------------------------------")
+escreval("Digite o código de solicitação")
+leia(codigo)
+
+escreval("Escolha o valor que precisa depositar para abrir a conta")
+leia(dinheiro)
+
+escreval("O nome do cliente é : ",cliente)
+escreval("O Sr(a) tem em sua conta bancária o valor de R$: ",dinheiro)
+
+escolha codigo
+
+caso 12
+Deposito
+escreval("Você solicitou o Depósito!")
+escreval("Quanto deseja depositar?")
+leia(deposito)
+calculo <- dinheiro + deposito
+escreval("Seu saldo atual é de R$: ",calculo)
+
+caso 45
+escreval("Você solicitou o Extrato!")
+escreval("Você tem em sua conta o valor de R$: ", dinheiro)
+caso 46
+escreval("Você solicitou o Saldo!")
+escreval("Você tem em sua conta o valor de R$: ",dinheiro)
+caso 37
+escreval("Você solicitou o Saque!")
+escreval("Quanto deseja sacar da sua conta?")
+leia(saque)
+caso 25
+Empréstimo
+escreval("Você solicitou o Empréstimo!")
+escreval("Quanto deseja pegar de empréstimo ?")
+leia(emprestimo)
+calculo <- dinheiro - emprestimo
+caso 52
+Cadastro
+escreval("Você solicitou o Validar seus dados")
+escreval("
+
+outrocaso
+
+fimescolha
+
+
+
+Fimalgoritm
